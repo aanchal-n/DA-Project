@@ -1,1 +1,4 @@
 # DA-Project
+
+## Abstract
+The main objective of this project is to aid in understanding the impact of various medical statistics and environmental conditions on the Life Expectancy of the citizens across a multitude of countries. The primary aim of the project is to use regression analysis to help in the prediction of Life Expectancy based on a few key features obtained via Exploratory Data Analysis and Feature Selection. The data used in this project has been collected from the World Health Organisation and includes various attributes such as Health Expenditure, Air Pollution, Unsafe Sanitation, GDP and so on. The project additionally aims to explore life expectancy as a function of Time. We aim to develop a clustering strategy that breaks away from this binary classification. We benchmark these models against a gradient boosting model and its metrics
