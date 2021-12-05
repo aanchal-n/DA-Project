@@ -22,11 +22,13 @@ The regression models were built with the agenda of predicting the life expectan
 ### Regression models 
 The linear regression and decision tree regression model were built first. However, they weren't successful in predicting the values of Life Expectancy due to the overfitting of data. Post this, the random forest model was built which was able to model the data with a decent r2 and rmse value. Finally, we built the gradient boosting model to help tackle the non-linear nature of data. The metric used for comparing these models is as mentioned in the below table. 
 
- |Model | R2 score     | RMSE
- |Linear Regression    | 0.88   | 3.40
- | Decision Tree Regression| 0.85 | 3.69
- | Random Forest Regression | 0.93 | 2.65
- | Extreme Gradient Boosting | 0.92  | 2.44
+
+ |Model                      | R2 score | RMSE |
+ ---------------------------- ---------- ----- |
+ | Linear Regression         | 0.88     | 3.40 |
+ | Decision Tree Regression. | 0.85     | 3.69 |
+ | Random Forest Regression  | 0.93     | 2.65 |
+ | Extreme Gradient Boosting | 0.92     | 2.44 |
  
 ### Time Series Forecasting
 The preprocessing for time series forecasting involved using decomposition graphs to identify the four components and using the augmented dickey fuller test to check for stationarity. We notice that the model has an evident trend line but lacks seasonality and cyclic component. So we use Holt's Exponential Smoothing to model the data. The values obtained are mentioned below. 
