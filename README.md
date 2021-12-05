@@ -41,3 +41,13 @@ We use K-Means clustering to cluster the data into clusters based on the elbow m
 
 ## Conclusion 
 In conclusion, we see that data could be modelled and predicted with only socio-economic, health and environmental conditions using regression and doesn't depend on the binary classification of the state. We also see that the data can be effectively modelled as a time series model using Holt's exponential smoothing method. We also provide proof for the fact that one could easily break away from the binary classification of countries. 
+
+
+
+
+
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
