@@ -36,9 +36,14 @@ The linear regression and decision tree regression model were built first. Howev
 ### Time Series Forecasting
 The preprocessing for time series forecasting involved using decomposition graphs to identify the four components and using the augmented dickey fuller test to check for stationarity. We notice that the model has an evident trend line but lacks seasonality and cyclic component. So we use Holt's Exponential Smoothing to model the data. The values obtained are mentioned below. 
 
- |Level Coefficient | Trend Coefficient     | RMSE
- |0.8   | 0.2  | 0.205
- 
+
+
+ |Level Coefficient | Trend Coefficient     | RMSE |
+ |------------------|-----------------------|------|
+ |0.8               | 0.2                   | 0.205|
+
+
+
 ### Clustering 
 We use K-Means clustering to cluster the data into clusters based on the elbow method. We also use the silhouette score to determine the accurate number of clusters. We see that these metrics dictate that the model can be grouped into 8 clusters over the binary classification. 
 
